@@ -57,14 +57,14 @@ const Footer = () => {
             <br />
             <div className="col-md-3">
               <h6 className="fw-bold">CONTACT</h6>
-              <p>Email:mathikk06@gmail.com</p>
+              <p>Email:magicalselva@gmail.com</p>
               <p>Phone:0987654321</p>
               <p>WhatsApp:0987654321</p>
             </div>
           </div>
 
           <br />
-          <p className="m-0 text-center text-light fw-bold">Copyright © Mathi 2024</p>
+          <p className="m-0 text-center text-light fw-bold">Copyright © Selva 2024</p>
         </div>
       </footer>
     </div>
