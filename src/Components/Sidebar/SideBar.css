@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+.sidebar {
+  width: 18%;
+  min-height: 100vh;
+  border: 1.5px solid #a9a9a9;
+  border-top: 0;
+  font-size: max(1.5vw, 10px);
+  background-color: rgb(69, 107, 60);
+
+  font-family: "Playfair Display", serif;
+  font-style: italic;
+}
+
+.sidebar-options {
+  padding-top: 50px;
+  padding-left: 20%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.sidebar-option {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+
+  padding: 8px 10px;
+
+  cursor: pointer;
+  color: white;
+}
+
+.sidebar-option i{
+    margin-bottom: 13px;
+    font-size: larger;
+}
+.sidebar-option.active{
+background-color: #fff0ed;
+border-color: tomato;
+}
+
+.sidebar-option:hover{
+background-color: white;
+color: black;
+border-radius: 10px;
+padding-bottom: 0;
+}
+
+@media (max-width:700px){
+    .sidebar-option p{
+        display: none;
+
+    }
+    .sidebar-option  i{
+        font-size: x-large;
+    }
+}

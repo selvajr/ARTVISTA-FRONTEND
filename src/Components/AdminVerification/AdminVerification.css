@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+
+.admin-verify{
+    border: 1px solid rgb(158, 156, 156);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: rgba(3, 252, 98, 0.25) 0px 50px 100px -20px,
+      rgba(53, 224, 1, 0.3) 0px 30px 60px -30px,
+      rgba(0, 255, 34, 0.35) 0px -2px 6px 0px inset;
+   
+    font-family: "Josefin Sans", sans-serif;
+}
+.admin-verify  input{
+    height: 50px;
+    width: 100%;
+    padding: 5px;
+    font-size: medium;
+    border-radius: 10px !important;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  
+    box-sizing: border-box;
+}
+.admin-verify button{
+    background-color: rgb(52, 88, 44);
+    color:white;
+}

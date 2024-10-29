@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+.order{
+    font-family: "Josefin Sans", sans-serif;
+}
+.order button{
+    background-color: rgb(52, 88, 44) !important;
+    color:white !important;
+}
+.order input{
+    height: 30px;
+    width: 100%;
+    padding: 5px;
+    font-size: medium;
+    border-radius: 10px !important;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  
+    box-sizing: border-box;
+}
+.order .card{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}

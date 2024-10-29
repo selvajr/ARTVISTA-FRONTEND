@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
+
+footer .btn {
+  background-color: white;
+  color: rgb(52, 88, 44);
+  border: 2px solid;
+}
+
+footer {
+  background-color: rgb(52, 88, 44);
+  color: white;
+  font-family: "Josefin Sans", sans-serif;
+}
+.about{
+    font-family: "Josefin Sans", sans-serif;
+}

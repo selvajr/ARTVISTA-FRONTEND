@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Playwrite+US+Trad:wght@100..400&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+
+.main{
+  font-family: "Josefin Sans", sans-serif;
+  animation: fadeIn 5s;
+}
+.main .btn{
+  background-color: rgb(52, 88, 44);
+  color:white;
+}
+.main h2{
+  font-family: "Playwrite US Trad", cursive;
+  margin: 5px;
+}
+.main .carousel{
+  height: 50% !important;
+  width: 50% !important;
+}
+
